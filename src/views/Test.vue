@@ -1,7 +1,7 @@
 <template>
     <div class="mt-2">
         <span>
-            {{ messageWithEmoji }} ohh
+            {{ messageWithEmoji }} ohh add brabra
         </span>
         <v-btn @click="reverseMessage">
             Reverse Message
