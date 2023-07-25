@@ -1,7 +1,7 @@
 <template>
     <div class="mt-2">
         <span>
-            {{ messageWithEmoji }}
+            {{ messageWithEmoji }} ohh
         </span>
         <v-btn @click="reverseMessage">
             Reverse Message
