@@ -1,7 +1,7 @@
 <template>
     <div>
         <v-container fluid class="pa-0">
-            <v-toolbar>
+            <v-toolbar elevation="0" color="">
                 asdzxcTest
             </v-toolbar>
         </v-container>
