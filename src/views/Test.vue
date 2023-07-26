@@ -24,8 +24,9 @@ export default {
     },
     methods: {
       reverseMessage () {
-        this.message = this.message.split('').reverse().join('')  
-        console.log('remes')
+        this.message = this.message.split('').reverse().join('') 
+        const testdosi = 'wowwww' 
+        console.log(`remes ${testdosi}`)
       }
     }
 }
