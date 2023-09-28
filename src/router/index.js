@@ -4,6 +4,7 @@ import HomeView from '../views/HomeView.vue'
 
 import Toolbar from "../views/Toolbar.vue"
 import Test from "../views/Test.vue"
+import Login from "../views/Login.vue"
 
 Vue.use(VueRouter)
 
@@ -22,13 +23,19 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
   },
 
+
   {
-    path: '/',
+    path: '/login',
+    name: 'Login',
+    component: Login
+  },
+  {
+    path: '',
     name: 'Toolbar',
     component: Toolbar,
     children: [
       {
-        path: '/test',
+        path: '',
         name: 'Test',
         component: Test,
         meta: { requiresAuth: true },
